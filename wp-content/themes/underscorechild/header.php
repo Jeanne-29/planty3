@@ -16,7 +16,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); //permet d'afficher les informations sur le WordPress ?>">  
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-
+	
 	<?php wp_head(); //permet d'ajouter le contenu d’entête prévu par WP et les contenus que j'ai ajoutés ci dessous ?> 
 </head>
 
@@ -45,7 +45,8 @@
 			<div class="commandepage">	
 			   <a href="http://localhost/planty/commander/" class="LienCommande"> Commander </a>
 			</div>
-	 </div>
+	 
 	 
 		</nav>
+		</div>
 	</header>
