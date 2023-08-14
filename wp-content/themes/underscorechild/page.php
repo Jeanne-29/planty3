@@ -12,7 +12,7 @@
  * @package underscore
  */
 
-get_header();
+get_header();//fonction qui permet de charger le modele d'en tete 
 ?>
 
 	<main id="primary" class="site-main">

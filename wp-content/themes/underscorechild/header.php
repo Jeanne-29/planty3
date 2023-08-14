@@ -13,7 +13,7 @@
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
-	<meta charset="<?php bloginfo( 'charset' ); //permet d'afficher les informations sur le WordPress ?>">  
+	<meta charset="<?php bloginfo( 'charset' ); //permet d'afficher les informations sur le site WordPress ?>">  
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	
@@ -21,19 +21,19 @@
 </head>
 
 <body class="Container">
-<?php wp_body_open(); //Balise Body d'ouverture ?> 
+<?php wp_body_open(); //fonction Body d'ouverture ?> 
 <div id="page" class="site">
 	<header >
 		
 	 <div class="HeaderContenaire">
 	 	<div >	
-			 <?php the_custom_logo(); //affiche le logo personnalisé lié à l'accueil ?> 
+			 <?php the_custom_logo(); //fonction permettant d'afficher le logo personnalisé lié à l'accueil ?> 
 		</div>
 			
 		<nav class="menuNav">
 
 			<?php
-			wp_nav_menu( //affiche le menu de navigation
+			wp_nav_menu( //fonction qui affiche le menu de navigation
 				array(
 					'theme_location' => 'menu-1',
 					'container'      => 'false',
@@ -41,11 +41,6 @@
 				)
 			);
 			?>
-
-			<div class="commandepage">	
-			   <a href="http://localhost/planty/commander/" class="LienCommande"> Commander </a>
-			</div>
-	 
 	 
 		</nav>
 		</div>

@@ -39,7 +39,7 @@ body {
   min-width: 150px;
 }
 
-.commandepage {
+/*.commandepage {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -53,8 +53,31 @@ body {
 .LienCommande {
   background-color: #DC9F96;
   color: white;
+}*/
+
+.menu-item-477 {
+  margin-right: 0px;
+  padding: 25px 35px;
+  background: #DC9F96;
+  order: 2;
 }
 
+.menu-item-477 a {
+  color: #FFFFFF;
+}
+
+.menu-item-477:hover {
+  background: #C02E44;
+}
+
+.menu-item-14 {
+  padding: 25px 0px;
+}
+
+nav ul .adminmenu {
+  order: 1;
+  margin-top: 6%;
+}
 
 /*Fin Header */
 
@@ -160,14 +183,14 @@ body {
   margin-left: 10%;
  }
 
- .bouttonCommander { /*Formulaire nous rencontrer*/
+ /*.bouttonCommander { /*Formulaire nous rencontrer
   height: 50px;
   width: 90px;
   border-radius: 5px;
   align-items: center;
   background-color: #DC9F96;
   color: white;
-}
+}*/
 
 /*Fin formulaire nous rencontrer*/
 
@@ -202,7 +225,8 @@ body {
   border: none;
   border-top: 1px solid white;
   width: 60%;
-  margin-left: 19%;
+  margin-left: 20%;
+  height: 50px;
 }
 
 .separatorVertical { /*formulaire commander*/
@@ -232,6 +256,8 @@ body {
  .formulaire { /*formulaire commander*/
   display: flex;
   flex-direction: row;
+  width: 70%;
+  margin-left: 12%;
  }
 
 .saisiedecommande { /*Formulaire commander*/
@@ -260,7 +286,7 @@ body {
   font-size: 20px;
   border-radius: 5%;
   border: none;
-  margin-left: 43%;
+  margin-left: 125%;
 }
 
 .TextCommande { /*Page commande*/
@@ -277,67 +303,68 @@ body {
 
 /* Page commande */
 
-.grille {   /*Page commande*/
+/*.grille {   /*Page commande
   max-width: 1400px;
-  width: 80%;
-  height: auto;
-  margin: 30px auto;
+  width: 71%;
+  height: 100px;
+  margin: auto;
   display: grid;
   grid-template-columns: repeat(auto-fill, 250px);
   justify-content: center;
-  grid-gap: 45px;
-}
+  grid-gap: 42px;
+  margin-left: 16%;
+}*/
 
-.grid-item { /*Page commande*/
+/*.grid-item { /*Page commande
   width: 200px;
   height: auto;
   background: #3B8E46;
-}
+}*/
 
-.TailleImage { /*Page commande*/
+/*.TailleImage { /*Page commande
   width : 200px;
   height: 150px;
-}
+}*/
 
-.QuantitedeCommande { /*Page commande*/
+/*.QuantitedeCommande { /*Page commande
   width: 55px;
   height: 50px;
   font-size: 30px;
   text-align: center;
   border-radius: 20% 0 0  20%;
   border: none;
-}
+}*/
 
-.Boutonokk { /*Page commande*/
+/*.Boutonokk { /*Page commande
   font-size: 20px;
   font-weight: bolder;
   color: #FFFFFF;
   text-align: center;
-}
+}*/
 
-.CouleurRose { /*Page commande*/
+/*.CouleurRose { /*Page commande
   background-color: #DC9F96;
   width: 50px;
   border-radius: 0 20% 20% 0;
- }
+ }*/
 
- .directionRoww { /*Page commande*/
+ /*.directionRoww { /*Page commande
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
- }
+ }*/
 
- .directionColumn2 { /*Page commande*/
+ /*.directionColumn2 { /*Page commande
   display: flex;
   flex-direction: column;
-}
+}*/
 
-.separatorHorizontal2 { /*Page commande*/
+/*.separatorHorizontal2 { /*Page commande
   border: none;
   border-top: 2px solid white;
   width: 100%;
-}
+}*/
 
 .SaisieCommande { /*Formulaire commande*/
   font-size: 30px;
@@ -348,31 +375,31 @@ body {
   font-weight: 700;
 }
 
- .directionRow { /*Page commande*/
+ /*.directionRow { /*Page commande
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   gap: 3%;
- }
+ }*/
 
-.paddingue { /*Page commande*/
+/*.paddingue { /*Page commande
   padding-top: 50px;
-}
+}*/
 
-.paddingTop { /*Page commande + Formulaire commande*/
+/*.paddingTop { /*Page commande + Formulaire commande
   padding-top: 70px;
-}
+}*/
 
-.paddingTop2 { /*Page commande*/
+/*.paddingTop2 { /*Page commande
   padding-top: 20px;
-}
+}*/
 
-.paddingueBottom { /*Formulaire commande*/
+/*.paddingueBottom { /*Formulaire commande
   padding-bottom: 50px;
-}
+}/*
 
-button { /*Boutton commande ok*/
+/*button { /*Boutton commande ok
   background-color: #DC9F96;
   color: white;
   border: none;
@@ -380,7 +407,7 @@ button { /*Boutton commande ok*/
   font-weight: bold;
   font-size: 19px;
   height: 80px;
-}
+}*/
 
 /*Media Querie*/
 
@@ -396,6 +423,20 @@ button { /*Boutton commande ok*/
 				width: 100%;
 			}
 
+      #wpcf7-f145-p12-o1 .wpcf7-submit { 
+        margin-left: 100%;
+        
+      }
+
+      .grille { 
+        width: 100%;
+        margin-left: 2%;
+        display: grid;
+        align-content: center;
+        margin-top: -3%;
+
+     }
+
 	  }
 
     @media (max-width: 1100px) {
@@ -408,14 +449,36 @@ button { /*Boutton commande ok*/
 				width: 80%;
 			}
 
+      #wpcf7-f145-p12-o1 .wpcf7-submit { 
+        margin-left: 60%;
+        
+      }
+
+      .separatorVertical { 
+        margin-left: -6%;
+      }
+
+      .grille { 
+        width: 130%;
+        margin-left: -12%;
+        display: grid;
+        align-content: center;
+        margin-top: -3%;
+
+     }
+
 	  }
 
-  @media (max-width: 976px) {
+  @media (max-width: 974px) {
 
-	.grille { 
-	   align-items: center;
-	   justify-items: center;
-	}
+    .grille { 
+      width: 118%;
+      margin-left: -10%;
+      display: grid;
+      align-content: center;
+      margin-top: -3%;
+
+   }
 
    .ContenaireFormulaireCF7 { 
 		  display: flex;
@@ -433,7 +496,9 @@ button { /*Boutton commande ok*/
 		}
 
 		#wpcf7-f145-p12-o1 .wpcf7-submit { 
-		  margin-left: -30px;
+		  margin-left: 40px;
+      margin-bottom: 200px;
+
 		}
 
 		.directionColumnLeft { 
@@ -482,7 +547,7 @@ button { /*Boutton commande ok*/
 
  }
 
-  @media (max-width: 500px) {
+  @media (max-width: 530px) {
 
 	  .formulaireCF7, /*Formulaire nous rencontrer*/
 	  .formulaireCF72 {
@@ -496,6 +561,11 @@ button { /*Boutton commande ok*/
 	  #wpcf7-f21-p8-o1 .wpcf7-submit { 
 	    margin-left: 20%;
 	  }
+
+    #wpcf7-f145-p12-o1 .wpcf7-submit { 
+		  margin-left: -10px;
+
+		}
 
   }
 
@@ -519,6 +589,12 @@ button { /*Boutton commande ok*/
 	     width: 50px;
 	     font-size: 15px;
 	   }
+
+     #wpcf7-f145-p12-o1 .wpcf7-submit { 
+		  margin-left: -35px;
+
+		}
+
   }
 
 
